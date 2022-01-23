@@ -1,0 +1,33 @@
+// [data-theme="light"] {
+//     --gradient-one : #30cfd0;
+//     --gradient-two: #330867;
+//     --bg-color: #ffffff
+//     --links: #000000;
+// }
+
+// [data-theme="dark"] {
+//     --gradient-one : rgba(245, 107, 244, 0.79);
+//     --gradient-two: #efad05;
+//     --bg-color: #21232f;
+//     --links: #000000;
+// }
+
+body{
+    background-color: aqua;
+    
+}
+
+@import "_variables";
+
+// h1.gradient-color {
+//     font: bold 6rem verdana ;
+//     background: -webkit-linear-gradient(45deg , blueviolet , cyan);
+//     -webkit-background-clip: text ;
+//     -webkit-text-fill-color: transparent ;
+//   }
+
+
+///*DESKTOP*\\\
+@media screen and (min-width: 1200px) {
+    
+}
