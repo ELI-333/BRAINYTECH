@@ -1,0 +1,120 @@
+:root {
+  --main-color: #EBECF0;
+  --text-color: #BABECC;
+  --pastille : rgb(90, 199, 163);
+  --button : rgb(99, 199, 90);
+  --pink : rgb(190, 90, 199);
+  --blue : rgb(22, 25, 150);
+  --modal-background: linear-gradient(4deg, rgba(105,58,180,1) 0%, rgba(29,253,187,0.7539215515307686) 50%, rgba(239,252,69,1) 100%);
+}
+/* // font-family: 'Barlow', sans-serif;
+
+// font-family: 'Dongle', sans-serif;
+
+// font-family: 'Montserrat', sans-serif;
+
+// font-family: 'Prompt', sans-serif;
+
+// font-family: 'Raleway', sans-serif;
+
+// font-family: 'Sedgwick Ave', cursive;
+
+// font-family: 'Ubuntu', sans-serif; */
+
+body{
+  background-image: url(/assets/images/bureau\ home.JPG);
+  background-repeat: no-repeat;
+  image-orientation: flip;
+  /* object-fit: contain; */
+  background-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  
+}
+
+/* ///Container master\\\ */
+main{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quizz__1{
+  top: 60px;
+}
+
+.quizz__2{
+  bottom: 100px;
+  left: 10px;
+}
+
+
+/* ///Position liens sur img\\\ */
+
+/* ///Contenu \\\ */
+.quizz__1, .quizz__2, .quizz__3{
+    position: relative;
+}
+
+.quizz__1{
+  top: -7px;
+  left: 69px;
+}
+
+.quizz__2{
+  top: 107px;
+}
+
+.quizz__1--progression{
+    font-size: 1em;
+}
+
+.quizz__1--button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 32px;
+}
+        a:first-child{
+          text-decoration: none;
+          color: white;
+          background-color: rgb(98, 187, 98);
+          padding: 8px 22px;
+          border-radius: 50px;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+        }
+
+        a:last-child {
+          color: white;
+          font-size: 0.7em;
+          background-color: rgb(48, 57, 77);
+          opacity: 0.7;
+          border-radius: 100%;
+          height: 23px;
+          width: 0px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          /*preparation animation*/
+          box-shadow: 12px 0 0 0 rgb(51, 51, 54);
+          transform: scale(1);
+          animation: pulse 2s infinite;
+        }
+
+      @keyframes pulse {
+        0%{
+            box-shadow: 0 0 0 0 rgba(161, 133, 133, 0.55);
+        }
+        50%{
+            box-shadow: 0 0 0 10px rgba(131, 126, 126, 0);
+        }
+    
+        100%{
+            box-shadow: 0 0 0 0 rgba(189, 180, 180, 0 );
+        }
+    }
+  

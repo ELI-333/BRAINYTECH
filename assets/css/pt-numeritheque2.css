@@ -1,0 +1,62 @@
+:root {
+  --main-color: #EBECF0;
+  --text-color: #BABECC;
+  --pastille : rgb(90, 199, 163);
+  --button : rgb(99, 199, 90);
+  --pink : rgb(190, 90, 199);
+  --blue : rgb(22, 25, 150);
+  --modal-background: linear-gradient(4deg, rgba(105,58,180,1) 0%, rgba(29,253,187,0.7539215515307686) 50%, rgba(239,252,69,1) 100%);
+}
+/* // font-family: 'Barlow', sans-serif;
+
+// font-family: 'Dongle', sans-serif;
+
+// font-family: 'Montserrat', sans-serif;
+
+// font-family: 'Prompt', sans-serif;
+
+// font-family: 'Raleway', sans-serif;
+
+// font-family: 'Sedgwick Ave', cursive;
+
+// font-family: 'Ubuntu', sans-serif; */
+
+body{
+  background-image: url(/assets/images/IMG_0766.JPG);
+  background-repeat: no-repeat;
+  /* object-fit: contain; */
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+  background-color: rgba(255, 255, 255, 0.3);
+  
+}
+
+
+h1 {
+  font-size: 2em;
+  color: var(--text-color);
+  text-align: center;
+  align-content: center;
+}
+
+
+.btn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 10px rgb(249, 252, 251);
+  border-radius: 12px;
+}
+

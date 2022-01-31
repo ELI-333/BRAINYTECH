@@ -1,0 +1,210 @@
+
+:root {
+  --main-color: #EBECF0;
+  --text-color: #92959e;
+  --btnQuizz: linear-gradient(to right, #006175 0%, #00a950 100%);
+  --background-gradient-1: linear-gradient(135deg, #044f48, #2a7561);
+  --background: linear-gradient(147deg, #adff3b 20%, #1dba71 60%);
+
+
+  /* // [data-theme="light"] {
+  //     --gradient-one : #30cfd0;
+  //     --gradient-two: #330867;
+  //     --bg-color: #ffffff
+  //     --links: #000000;
+  // }
+  
+  // [data-theme="dark"] {
+  //     --gradient-one : rgba(245, 107, 244, 0.79);
+  //     --gradient-two: #efad05;
+  //     --bg-color: #21232f;
+  //     --links: #000000;
+  // }
+  /* // [data-theme="light"] {
+  //     --gradient-one : #30cfd0;
+  //     --gradient-two: #330867;
+  //     --bg-color: #ffffff
+  //     --links: #000000;
+  // }
+  
+  // [data-theme="dark"] {
+  //     --gradient-one : rgba(245, 107, 244, 0.79);
+  //     --gradient-two: #efad05;
+  //     --bg-color: #21232f;
+  //     --links: #000000;
+  // }
+   */
+
+/* font-family: 'Barlow', sans-serif;
+
+font-family: 'Dongle', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Prompt', sans-serif;
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Sedgwick Ave', cursive;
+
+font-family: 'Ubuntu', sans-serif; */
+}
+
+
+/*//////////////////////////////////////////// connexion ou inscription \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+h1{
+  font-size: 2em;
+  color: var(--text-color);
+  margin-left: 30px;
+  margin-top: 12px;
+  display: flex;
+  text-align: start;
+}
+
+h2{
+  white-space: pre-line;
+  margin-left: 40px;
+  color: var(--background);
+}
+
+body {
+  background-image: url(/assets/images/expectrum-1191724_1280.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+body, input, select, button {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: -0.2px;
+  font-size: 12px;
+}
+
+/*logo*/
+img{
+  width: 10%;
+}
+
+
+/*style des formulaires */
+form{
+  height: 280px;
+  padding: 9px;
+  width: 211px;
+  margin: -184px 325px;
+  background-color: #EBECF0;
+  border-radius: 12px;
+}
+
+/*pied*/
+a{
+  color: var(--text-color);
+  text-shadow: 1px 1px 1px #FFF;
+  text-decoration: none;
+}
+
+/* Card -- nav */
+.btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-equipe{
+  color: var(--background);
+  
+}
+
+/* Card -- pied */
+.container {
+  padding : 7px 3px 13px;
+  text-align: center;
+}
+
+/* Card -- main et bouton */
+button, input {
+  border: 0;
+  outline: 0;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 9px;
+  background-color: #EBECF0;
+  text-shadow: 1px 1px 0 #FFF;
+}
+
+/* card -- main --- position des input */
+label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+input, button, .container{
+  border-radius: 12px;
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+}
+
+input:focus {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+
+button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #2d2d30;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+button:hover {
+  box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+
+
+/* .input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-group label {
+  margin: 0;
+  flex: 1; */
+
+  @media (min-width: 992px) {
+    form {
+      padding: 27px;
+      width: 470px;
+      height: 600px;
+      margin: 0 auto;
+      background-color: #EBECF0;
+      border-radius: 12px;
+    }
+
+    input {
+      margin-right: 8px;
+      box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+      width: 100%;
+      box-sizing: border-box;
+      transition: all 0.2s ease-in-out;
+      -moz-appearance: none;
+           appearance: none;
+      -webkit-appearance: none;
+    }
+  }

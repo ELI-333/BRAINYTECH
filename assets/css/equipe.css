@@ -1,0 +1,185 @@
+:root {
+        --main-color: #EBECF0;
+        --text-color: #92959e;
+        --background: #404740;
+        /* // [data-theme="light"] {
+        //     --gradient-one : #30cfd0;
+        //     --gradient-two: #330867;
+        //     --bg-color: #ffffff
+        //     --links: #000000;
+        // }
+      
+        // [data-theme="dark"] {
+        //     --gradient-one : rgba(245, 107, 244, 0.79);
+        //     --gradient-two: #efad05;
+        //     --bg-color: #21232f;
+        //     --links: #000000;
+        // }
+         */
+        /* font-family: 'Barlow', sans-serif;
+      
+        font-family: 'Dongle', sans-serif;
+      
+        font-family: 'Montserrat', sans-serif;
+      
+        font-family: 'Prompt', sans-serif;
+      
+        font-family: 'Raleway', sans-serif;
+      
+        font-family: 'Sedgwick Ave', cursive;
+      
+        font-family: 'Ubuntu', sans-serif; */
+      }
+      
+      /* bouton connexion ou inscription */
+      h1 {
+        font-size: 2em;
+        color: var(--text-color);
+        margin-left: 30px;
+        margin-top: 12px;
+      }
+      
+      h2 {
+        white-space: pre-line;
+        margin-left: 40px;
+        color: var(--background);
+      }
+      
+      h3 {
+        font-size: 1.3em;
+      }
+      
+      body {
+        background-image: url(/assets/images/expectrum-1191724_1280.png);
+        background-repeat: no-repeat;
+        background-size: 110%;
+      }
+      
+      body, input, select, textarea, button {
+        font-family: "Raleway", sans-serif;
+        letter-spacing: -0.2px;
+        font-size: 12px;
+      }
+      
+      img {
+        width: 10%;
+      }
+      
+      .titre {
+        display: flex;
+        text-align: start;
+      }
+      
+      /* card */
+      form {
+        height: 346px;
+        padding: 9px;
+        width: 211px;
+        margin: -146px 325px;
+        background-color: #EBECF0;
+        border-radius: 12px;
+      }
+      
+      /* Card -- nav et pied */
+      div, a {
+        color: var(--text-color);
+        text-shadow: 1px 1px 1px #FFF;
+        text-decoration: none;
+      }
+      
+      /* Card -- nav */
+      .btn {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .btn-connexion {
+        color: var(--background);
+      }
+      
+      
+      /* Card -- pied */
+      .container {
+        padding: 7px 3px 13px;
+        text-align: center;
+      }
+      
+      /* Card -- main et bouton */
+      button, input {
+        border: 0;
+        outline: 0;
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 9px;
+        background-color: #EBECF0;
+        text-shadow: 1px 1px 0 #FFF;
+      }
+      
+      /* card -- main --- position des input */
+      label {
+        display: block;
+        margin-bottom: 24px;
+        width: 100%;
+      }
+      
+      input {
+        margin-right: 8px;
+        box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+        width: 100%;
+        box-sizing: border-box;
+        transition: all 0.2s ease-in-out;
+        -moz-appearance: none;
+        appearance: none;
+        -webkit-appearance: none;
+      }
+      
+      input:focus {
+        box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+      }
+      
+      button {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 66%;
+        font-family: "Raleway", sans-serif;
+        color: #47474b;
+        box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+      
+      button:hover {
+        box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+      }
+      
+      button:active {
+        box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+      }
+      
+      
+      @media (min-width: 992px) {
+        form {
+          padding: 27px;
+          width: 470px;
+          height: 600px;
+          margin: 0 auto;
+          background-color: #EBECF0;
+          border-radius: 12px;
+        }
+      
+        input {
+          margin-right: 8px;
+          box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+          width: 100%;
+          box-sizing: border-box;
+          transition: all 0.2s ease-in-out;
+          -moz-appearance: none;
+          appearance: none;
+          -webkit-appearance: none;
+        }
+      }/*# sourceMappingURL=dropdown copy.css.map */

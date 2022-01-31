@@ -1,0 +1,130 @@
+
+:root {
+  --main-color: #EBECF0;
+  --text-color: #92959e;
+  --btnQuizz: linear-gradient(to right, #006175 0%, #00a950 100%);
+  --background-gradient-1: linear-gradient(135deg, #044f48, #2a7561);
+  --background: linear-gradient(147deg, #adff3b 20%, #1dba71 60%);
+
+
+  /* // [data-theme="light"] {
+  //     --gradient-one : #30cfd0;
+  //     --gradient-two: #330867;
+  //     --bg-color: #ffffff
+  //     --links: #000000;
+  // }
+  
+  // [data-theme="dark"] {
+  //     --gradient-one : rgba(245, 107, 244, 0.79);
+  //     --gradient-two: #efad05;
+  //     --bg-color: #21232f;
+  //     --links: #000000;
+  // }
+  /* // [data-theme="light"] {
+  //     --gradient-one : #30cfd0;
+  //     --gradient-two: #330867;
+  //     --bg-color: #ffffff
+  //     --links: #000000;
+  // }
+  
+  // [data-theme="dark"] {
+  //     --gradient-one : rgba(245, 107, 244, 0.79);
+  //     --gradient-two: #efad05;
+  //     --bg-color: #21232f;
+  //     --links: #000000;
+  // }
+   */
+
+}
+
+
+/*nav*/
+.slidenav {
+
+  height: 100%;
+  /* JavaScript */
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background: linear-gradient(147deg, rgb(173, 255, 59, 0.3) 20%, rgb(29, 186, 113, 0.3) 60%);
+  opacity: 0.9;
+  overflow-x: hidden;
+  /* pas de scroll horizontal */
+  padding-top: 32px;
+  /* padding-right: 37px; */
+  transition: 0.5s;
+  border-radius: 7px 0px 0px 12px;
+ 
+}
+
+
+/* Contenu de la nav */
+.slidenav a {
+  padding: 8px 8px 11px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  /* transition: 2s ; */
+  
+ 
+}
+
+/*icone de la nav*/
+svg{
+  right: 23px;
+  position: relative;
+  
+}
+
+/* hover sur icones de la nav */
+.slidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* indicateurs principaux*/
+.indic-principaux{
+  width: 48%;
+  margin-left: 7px;
+}
+
+/*ligne de séparation*/
+.line{
+  border-bottom: solid 1px;
+}
+
+/* indicateurs secondaires*/
+.indic-secondaires{
+  width: 36%;
+  margin-left: 7px;
+}
+
+/* Position et style close button de la nav quand elle est ouverte */
+.slidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  /* font-size: 36px; */
+  margin-left: 50px;
+}
+
+/*btn--ouverture nav*/
+span{
+  position: fixed;
+  right: 0;
+  padding-right: 12px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .slidenav {
+    padding-top: 41px;
+  }
+
+  .slidenav a {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=nav.css.map */

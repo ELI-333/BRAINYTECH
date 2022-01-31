@@ -1,0 +1,21 @@
+:root {
+  --main-color: #EBECF0;
+  --text-color: #BABECC;
+}
+
+h1 {
+  font-size: 3em;
+  color: var(--text-color);
+}
+
+a {
+  background-color: #8bc75a;
+  padding: 0px 10px 0px 10px;
+  border-radius: 12px;
+}
+
+a {
+  background-color: #8bc75a;
+  padding: 0px 10px 0px 10px;
+  border-radius: 12px;
+}/*# sourceMappingURL=score.css.map */
